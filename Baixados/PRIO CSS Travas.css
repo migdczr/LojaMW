@@ -1,0 +1,354 @@
+.pp-travas {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 5%;
+}
+
+.pp-travas h1 {
+  color: #fff;
+}
+
+.pp-travas h2 {
+  font-size: 18px;
+  line-height: 1em;
+  color: #fff;
+}
+
+.pp-travas p {
+  color: #999999;
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+}
+
+.pp-travas-topo {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/PI_travas_todo_big_B.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0% 0%;
+}
+
+.pp-travas-topo h1 {
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+  font-weight: 600;
+  letter-spacing: 0rem;
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 25, 25, 1) 10%,
+    rgba(25, 25, 25, 0) 150%
+  );
+  text-align: center;
+  margin: 0vw 0vw 0vw 0vw;
+  text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+  padding: 20vh 4vw 0vw 4vw;
+}
+
+.pp-travas-topo-bullets {
+  padding: 4vw 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pp-travas-topo-bullet {
+  padding: 20px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.pp-travas-topo-bullet h2 {
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+
+.pp-travas-topo-bullet p {
+  color: #999;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin-top: 18px;
+}
+
+.pp-blt-topo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.pp-blt-topo img {
+  height: 60px;
+}
+
+.pp-travas-seguranca {
+  margin: 0% 5%;
+  padding: 4vh 8% 5vh 8%;
+  background-color: #f9f9f9;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.pp-travas-seguranca p,
+.pp-travas-seguranca h1 {
+  color: #191919;
+}
+
+.pp-travas-seguranca h1,
+.pp-travas-info h1 {
+  width: 60%;
+  font-size: 1.4rem;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.pp-travas-info {
+  padding: 4vh 5% 0vh 5%;
+}
+
+.pp-travas-fotos {
+  margin: 0% 5%;
+}
+
+.pp-travas-fotos-tarja {
+  color: white;
+  background: linear-gradient(
+    75deg,
+    rgba(191, 10, 60, 1) 0%,
+    rgba(255, 0, 0, 1) 26%,
+    rgba(255, 143, 48, 1) 63%,
+    rgba(255, 121, 30, 1) 100%
+  );
+  padding: 2vh 0vw;
+}
+
+.pp-travas-fotos-tarja h1 {
+  width: 100%;
+  font-weight: 400;
+  letter-spacing: 10px;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 0.6em;
+}
+
+.pp-travas-fotos-linha2 {
+  display: flex;
+}
+
+.pp-travas-fotos-linha2-foto1 img {
+  border-bottom-left-radius: 8px;
+  width: 100%;
+}
+.pp-travas-fotos-linha2-foto2 img {
+  border-bottom-right-radius: 8px;
+  width: 100%;
+}
+
+.pp-travas-superficies,
+.pp-travas-manutencao,
+.pp-travas-fixacao {
+  margin-bottom: 4vh;
+}
+
+.pp-travas-fotos-linha {
+  padding: 0;
+  margin: 4vw -5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pp-travas-fotos-cel-esq,
+.pp-travas-fotos-cel-mei,
+.pp-travas-fotos-cel-dir {
+  flex-grow: 1;
+}
+
+.pp-fotos-mei,
+.pp-fotos-esq,
+.pp-fotos-dir {
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+  height: 16vh;
+}
+
+.pp-fotos-esq {
+  border-top-left-radius: 8px;
+}
+
+.pp-fotos-dir {
+  border-top-right-radius: 8px;
+}
+
+.pp-fotos-esq img {
+  width: 100%;
+}
+
+.pp-fotos-mei img {
+  width: 100%;
+}
+
+.pp-fotos-dir img {
+  width: 100%;
+}
+
+.trava-aviso-dir {
+  background: rgb(36, 148, 6);
+  background: linear-gradient(
+    65deg,
+    rgba(36, 148, 6, 1) 0%,
+    rgba(77, 222, 39, 1) 78%
+  );
+  border-bottom-right-radius: 8px;
+}
+
+.trava-aviso-mei {
+  background: rgb(254, 119, 1);
+  background: linear-gradient(
+    65deg,
+    rgba(254, 119, 1, 1) 0%,
+    rgba(255, 165, 68, 1) 78%
+  );
+}
+
+.trava-aviso-esq {
+  background: rgb(254, 119, 1);
+  background: linear-gradient(
+    65deg,
+    rgba(254, 119, 1, 1) 0%,
+    rgba(255, 165, 68, 1) 78%
+  );
+  border-bottom-left-radius: 8px;
+}
+
+.pp-travas-fotos-linha h3 {
+  text-align: center;
+  color: #191919;
+  padding: 10px;
+  margin: 0;
+}
+
+.trava-super-dir {
+  background: rgb(230, 76, 33);
+  background: linear-gradient(
+    65deg,
+    rgba(230, 76, 33, 1) 0%,
+    rgba(255, 106, 90, 1) 78%
+  );
+  border-bottom-right-radius: 8px;
+}
+
+.trava-super-mei {
+  background: rgb(254, 119, 1);
+  background: linear-gradient(
+    65deg,
+    rgba(254, 119, 1, 1) 0%,
+    rgba(255, 165, 68, 1) 78%
+  );
+}
+
+.trava-super-esq {
+  background: rgb(36, 148, 6);
+  background: linear-gradient(
+    65deg,
+    rgba(36, 148, 6, 1) 0%,
+    rgba(77, 222, 39, 1) 78%
+  );
+  border-bottom-left-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .pp-travas {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 0%;
+  }
+
+  .pp-travas-topo {
+    z-index: 999;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0% 0%;
+    background-position: top left;
+  }
+  .pp-travas-topo h1 {
+    background: rgb(25, 25, 25);
+    background: linear-gradient(
+      0deg,
+      rgb(24, 24, 24) 0%,
+      rgba(32, 32, 32, 0) 100%
+    );
+    margin: 12vw 0vw 0vw 0vw;
+    text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+    padding: 12vh 4vw 4vw 4vw;
+  }
+
+  .pp-travas-topo-bullets {
+    margin: 0% 0%;
+    background-color: #191919;
+    padding: 4vw 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .pp-travas-fotos {
+    display: none;
+  }
+
+  .pp-travas-seguranca {
+    margin: 0% 4%;
+    padding: 4vh 0% 0vh 0%;
+    background-color: #fff;
+  }
+
+  .pp-travas-info {
+    margin: 0% 4%;
+    padding: 4vh 0% 5vh 0%;
+  }
+  .pp-travas-info p,
+  .pp-travas-info h1 {
+    color: #191919;
+  }
+
+  .pp-travas-fotos-linha {
+    margin: 4vw 0%;
+    flex-direction: column;
+  }
+
+  .pp-travas-fotos-cel-esq,
+  .pp-travas-fotos-cel-mei {
+    margin-bottom: 2vh;
+  }
+
+  .pp-fotos-esq,
+  .pp-fotos-mei,
+  .pp-fotos-esqdir {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .trava-aviso-esq,
+  .trava-aviso-mei,
+  .trava-aviso-dir,
+  .trava-super-dir,
+  .trava-super-esq,
+  .trava-super-mei {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}

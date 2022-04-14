@@ -1,0 +1,810 @@
+/*DO TEMA*/
+.box-descricao {
+  box-shadow: none !important;
+}
+
+.descricao-titulo {
+  display: none !important;
+}
+
+.listagem h4 {
+  display: none !important;
+}
+
+.pi_main {
+  font-family: "Montserrat", sans-serif;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*TOPO*/
+.pi_topo_header {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #191919;
+}
+
+.pi_topo {
+  width: 84%;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10vh;
+}
+
+.pi_topo_frase h1 {
+  margin-top: 16vh;
+  text-transform: uppercase;
+  width: 70%;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: -0.8px;
+  text-shadow: 10px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pi_topo_item {
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pi_topo_item h1 {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.7em;
+  margin: -20px 0px 12px 0px;
+  text-align: right;
+  text-shadow: 10px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.pi_topo_item_logo {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pi_topo_item_logo h4 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pi_topo_item_logo img {
+  max-width: 120px;
+}
+
+.pi_item_carga {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #ff791f;
+  height: 1.8rem;
+  padding: 4px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pi_item_carga h4 {
+  margin-right: 0.6rem;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 0.1em;
+}
+
+.pi_item_carga h5 {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 0em;
+}
+
+.pi_foto_produto {
+  width: 100%;
+  margin-top: 4vh;
+  margin-right: -3vw;
+  text-align: right;
+  z-index: 20;
+}
+
+.pi_foto_produto img {
+  width: 480px;
+}
+
+/*BULLETS*/
+.pi_bullets_conteiner {
+  background-color: #f9f9f9;
+  align-self: center;
+  margin-top: -18vh;
+  padding-bottom: 3vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pi_topo_bullets_1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 4vh 6vw 0vh 6vw;
+}
+
+.pi_topo_bullets_1 p,
+.pi_topo_bullets_2 p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.pi_topo_bullets_1 img,
+.pi_topo_bullets_2 img {
+  height: 60px;
+}
+
+.pi_topo_bullet {
+  color: #191919;
+  margin-right: 3vw;
+  flex-grow: 1;
+  width: 33.33%;
+  margin-bottom: 2vh;
+}
+
+.pi_blt1_linha1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 2vh;
+}
+
+.pi_blt1_linha1 h2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.pi_topo_bullets_2 {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0vw 6vw 2vh 6vw;
+}
+
+/*FOTOS*/
+.pi_fotos {
+  background-color: #191919;
+  padding: 0;
+  width: 90%;
+}
+
+.pi_fotos_tarja {
+  color: white;
+  background: linear-gradient(
+    75deg,
+    rgba(191, 10, 60, 1) 0%,
+    rgba(255, 0, 0, 1) 26%,
+    rgba(255, 143, 48, 1) 63%,
+    rgba(255, 121, 30, 1) 100%
+  );
+
+  padding: 2vh 0vw;
+}
+
+.pi_fotos_tarja h1 {
+  font-weight: 400;
+  letter-spacing: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 0.6em;
+}
+
+.pi_fotos_linha1 {
+  display: flex;
+}
+
+.pi_fotos_linha2 {
+  display: flex;
+}
+
+.pi_fotos_linha1_foto1,
+.pi_fotos_linha1_foto2,
+.pi_fotos_linha1_foto3 {
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+  height: 16vh;
+}
+
+.pi_fotos_linha1_foto1 {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/valendo_LP_cenas_afundo_1920.jpg");
+}
+
+.pi_fotos_linha1_foto2 {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/valendo_LP_cenas_concentada_1920.jpg");
+}
+
+.pi_fotos_linha1_foto3 {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/valendo_LP_cenas_remada_1920.jpg");
+}
+
+.pi_fotos_linha2_foto1 img {
+  border-bottom-left-radius: 8px;
+  width: 100%;
+}
+.pi_fotos_linha2_foto2 img {
+  border-bottom-right-radius: 9px;
+  width: 100%;
+}
+
+/*TABELA*/
+.pi_tabela {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 90%;
+  padding: 5vh 0% 2vh 0%;
+}
+
+.pi_cabeca_tabela {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.6vh;
+}
+
+.pi_cabeca_tabela h1 {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-left: 2rem;
+  font-size: 18px;
+  color: white;
+  line-height: 0.4rem;
+}
+
+.pi_cabeca_tabela img {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.pi_tabela_inside_topo,
+.pi_tabela_inside,
+.pi_tabela_inside_pe {
+  font-weight: 500;
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 4px;
+  padding: 2.5vw 6vw 2vw 6vw;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+}
+
+.pi_tabela_inside_topo {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.pi_tabela_inside_pe {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/*METODO_W*/
+.pi_mw {
+  background-color: #191919;
+  padding-top: 4vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pi_cabeca_mw {
+  z-index: 99;
+  margin-bottom: 6px;
+}
+
+.pi_mw h1 {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-left: 2rem;
+  font-size: 18px;
+  color: white;
+  line-height: 0.4rem;
+}
+
+.pi_mw h2 {
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.5px;
+  font-size: 2.4vw;
+  color: white;
+}
+
+.pi_mw h3 {
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: -0px;
+  font-size: 12px;
+  color: rgb(177, 153, 166);
+}
+
+.pi_mw_conteiner {
+  background-color: #191919;
+  padding: 6vw 0vh 2vw 5vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/Pi_Banner_MW_horiz_1280.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.pi_mw_conteiner_right {
+  padding-right: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pi_mw_conteiner_left {
+  padding-right: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pi_mw_logo img {
+  width: 100%;
+}
+
+.pi_mw_icones img {
+  width: 280px;
+  padding-right: 4rem;
+}
+
+.pi_tit_banner_mw {
+  padding-right: 20%;
+  margin: 3vw 0vw 1vh 0vw;
+}
+
+.pi_sub_tit_banner_mw {
+  display: flex;
+}
+
+.pi_mw button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #191919;
+  letter-spacing: -0.2px;
+  background: #00ffff;
+  border: none;
+  margin: 2vh 0vw 4vh 0vw;
+  padding: 08px 24px 10px 24px;
+  border-radius: 80px;
+  transition: all 0.5s ease;
+}
+
+.pi_mw button:hover {
+  transform: translate(10px, 0px);
+  cursor: pointer;
+}
+
+/*TABLET*/
+@media only screen and (max-width: 960px) {
+  .pi_topo {
+    padding-bottom: 0vh;
+  }
+
+  .listagem .listagem-linha li {
+    width: 50%;
+    float: left;
+  }
+
+  .pi_topo_frase {
+    margin-top: -2vh;
+  }
+
+  .pi_topo_frase h1 {
+    width: 90%;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: -1px;
+    color: #fff;
+    text-shadow: 10px 6px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .pi_topo_item {
+    margin-top: 8vh;
+  }
+
+  .pi_foto_produto {
+    margin-right: -1vw;
+    margin-top: 4vh;
+  }
+
+  .pi_foto_produto img {
+    width: 420px;
+  }
+
+  .pi_bullets_conteiner {
+    margin-top: -14vh;
+  }
+
+  /*METODO_W*/
+
+  .pi_cabeca_mw {
+    width: 100%;
+    margin-bottom: 1.8vh;
+    margin-top: 0vh;
+    margin-left: 0px;
+  }
+
+  .pi_mw_conteiner {
+    width: 100%;
+    padding: 0px;
+    margin-top: 0px;
+    background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/PI_BG_Banner_MW_Mobile_B_540.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: flex-end;
+    height: auto;
+  }
+
+  .pi_mw_conteiner :nth-child(1) {
+    order: 2;
+  }
+  .pi_mw_conteiner :nth-child(2) {
+    order: 1;
+  }
+
+  .pi_mw_icones {
+    display: none;
+  }
+
+  .pi_mw_logo {
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 6vw;
+  }
+
+  .pi_mw_logo img {
+    width: 380px;
+  }
+
+  .pi_tit_banner_mw {
+    max-width: 500px;
+    margin: 4vw 0vw 4vw 8%;
+  }
+
+  .pi_subtit_banner_mw {
+    margin: 0 0 40vh 8%;
+    width: 45%;
+  }
+
+  .pi_mw button {
+    font-weight: 700;
+    font-size: 20px;
+    color: #191919;
+    letter-spacing: -0.5px;
+    background: #00ffff;
+    border: none;
+    margin-left: 10%;
+    padding: 12px 24px 16px 24px;
+    border-radius: 80px;
+    transition: all 0.5s ease;
+  }
+
+  .pi_mw button:hover {
+    transform: translate(10px, 0px);
+    cursor: pointer;
+  }
+
+  .pi_mw a {
+    color: #191919;
+    text-decoration: none;
+  }
+
+  .pi_mw h1 {
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: -0.5px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .pi_mw h2 {
+    font-size: 4vw;
+  }
+
+  .pi_mw h3 {
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: -0px;
+    font-size: 16px;
+    color: rgb(177, 153, 166);
+  }
+
+  .listagem .listagem-item {
+    margin: 0px;
+  }
+
+  .listagem .span3 .imagem-produto {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 8px !important;
+  }
+
+  .listagem .listagem-item .info-produto {
+    width: 90%;
+    margin: 5vh 5% 0vh 5%;
+    padding: 0px;
+  }
+
+  .aproveite-tambem .desconto-a-vista {
+    width: 100% !important;
+    margin-left: -3% !important;
+    padding: 10px 12px;
+  }
+}
+
+/*SMARTPHONE*/
+@media only screen and (max-width: 768px) {
+  .listagem .listagem-linha li {
+    width: 100%;
+    float: left;
+  }
+
+  .pi_topo_header {
+    background-color: #fff;
+    background-size: 170%;
+  }
+
+  .pi_bullets_conteiner {
+    width: 100% !important;
+    margin: 0px;
+    background-color: none;
+    padding-bottom: 3vh;
+  }
+
+  .pi_main {
+    margin-top: 10px;
+    box-shadow: none !important;
+    background-color: #fff;
+  }
+
+  .pi_topo {
+    flex-direction: column;
+  }
+
+  .pi_topo_frase {
+    display: none;
+  }
+
+  .pi_topo_item {
+    margin: 30vh 14vw 0vh 14vw;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+  }
+
+  .pi_topo_item h1 {
+    margin: 1px 0px 10px 0px;
+    text-align: center;
+  }
+
+  .pi_topo_item_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+
+  .pi_topo_item_logo h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1vw;
+    color: #fff;
+  }
+
+  .pi_topo_item_logo img {
+    max-width: 120px;
+  }
+
+  .pi_item_carga {
+    display: flex;
+    height: 24px;
+    padding: 2px 4px;
+    color: #fff;
+    justify-content: space-between;
+  }
+
+  .pi_item_carga h4 {
+    margin: 0px 10px 0px 10px;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1em;
+  }
+
+  .pi_item_carga h5 {
+    margin: 0px 10px 0px 0px;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 1em;
+  }
+
+  .pi_topo_bullets_2 {
+    flex-wrap: wrap;
+    margin: 0vh 0vh 4vh 0vh;
+    padding: 0vh 13% 0vh 13%;
+  }
+  .pi_topo_bullets_2 {
+    flex-wrap: wrap;
+  }
+
+  .pi_topo_bullets_1 {
+    display: none;
+  }
+
+  .pi_topo_bullet {
+    width: 100%;
+  }
+
+  .pi_topo_bullet {
+    width: 100%;
+  }
+
+  .pi_foto_produto {
+    margin: 2vh 0vw 0vh 0vw;
+
+    text-align: center;
+    background-color: #f9f9f9 !important;
+  }
+
+  .pi_foto_produto img {
+    margin-top: 1vh;
+    width: 70%;
+  }
+
+  /*FOTOS*/
+  .pi_fotos {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .pi_fotos_tarja h1 {
+    font-weight: 500;
+    letter-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 0.6em;
+  }
+
+  .pi_fotos_linha1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .pi_fotos_linha1_foto1,
+  .pi_fotos_linha1_foto2,
+  .pi_fotos_linha1_foto3 {
+    height: 40vh;
+  }
+
+  .pi_fotos_linha2 {
+    border-bottom-left-radius: 10px;
+  }
+
+  /*METODO_W*/
+  .pi_mw {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .pi_mw h2 {
+    padding-right: 12%;
+    font-size: 5vw;
+  }
+
+  .pi_mw_conteiner_right :nth-child(1) {
+    order: 1;
+  }
+  .pi_mw_conteiner_right :nth-child(2) {
+    order: 2;
+  }
+
+  .pi_mw_icones {
+    display: none;
+  }
+
+  .pi_mw_logo {
+    margin: 4vw 0vw 0vw 1vw;
+  }
+
+  .pi_mw_logo img {
+    width: 320px;
+  }
+
+  .pi_mw_conteiner_right {
+    margin-bottom: 1vh;
+  }
+
+  .pi_subtit_banner_mw {
+    margin: 0 0 36vh 8%;
+    width: 65%;
+  }
+
+  .pi_cabeca_mw h1 {
+    padding: 0% 12%;
+  }
+
+  /*TABELA*/
+  .pi_tabela {
+    width: 100%;
+  }
+
+  .pi_cabeca_tabela {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+  }
+
+  .pi_cabeca_tabela h1 {
+    padding: 0% 12%;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
+    margin-left: 0px;
+    font-size: 22px;
+    color: #a7175a;
+  }
+
+  .pi_cabeca_tabela img {
+    display: none;
+  }
+
+  .pi_tabela_inside_topo,
+  .pi_tabela_inside,
+  .pi_tabela_inside_pe {
+    background-color: #fff;
+  }
+
+  .pi_topo_header {
+    width: 100%;
+  }
+}

@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+/*CNPJ*/
+.cnpj-main {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 10%;
+}
+
+.cnpj-lgpd-topico-topo {
+  text-align: center;
+  margin: 0%;
+  padding: 4% 4%;
+  background-color: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.cnpj-lgpd-topico-topo img {
+  width: 80vw;
+}
+
+.cnpj-topo {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/homem-aprovado-amarelo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0% 0%;
+}
+
+.cnpj-topo h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1em;
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(25, 25, 25, 0) 70%
+  );
+  text-align: center;
+  margin: 0vw 0vw 0vw 0vw;
+  text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.7);
+  padding: 30vh 8vw 6vw 8vw;
+  color: #f4f4f4;
+}
+
+/*PPD*/
+.ppd-main {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 10%;
+}
+
+.ppd-lgpd-l1 {
+  color: #f9f9f9;
+}
+.ppd-lgpd-l1 p {
+  color: #666666;
+}
+
+.ppd-lgpd-l1 p,
+.ppd-lgpd-topico-topo p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.ppd-lgpd-topico-corpo p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #686868;
+}
+
+.ppd-main h2 {
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.ppd-lgpd-topico-topo {
+  margin: 0% 5%;
+  padding: 4vh 8% 5vh 8%;
+  background-color: #f9f9f9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.ppd-topo {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/homem-celular-fundo-rosa.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0% 0%;
+  margin: 0% 10%;
+}
+
+.ppd-topo h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1em;
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(25, 25, 25, 0) 70%
+  );
+  text-align: center;
+  margin: 0vw 0vw 0vw 0vw;
+  text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.7);
+  padding: 36vh 8vw 0vw 8vw;
+  color: #f4f4f4;
+}
+
+.ppd-lgpd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5vh 20%;
+}
+
+.ppd-lgpd-l1 {
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.ppd-lgpd-l1 h2 {
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.ppd-lgpd-l1 p {
+  margin: 0;
+}
+
+.ppd-lgpd img {
+  width: 140px;
+}
+
+.ppd-lgpd-topico-corpo {
+  margin: 6vh 20% 0vw 20%;
+}
+
+.ppd-lgpd-topico-corpo h2 {
+  width: 50%;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1.2em;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+/*TC*/
+.tc-main {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 0%;
+}
+
+.tc-lgpd-topico-topo p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.tc-main h2 {
+  margin: 5vh 0vh 1vh 0vh;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.tc-lgpd-topico-topo {
+  margin: 0% 10%;
+  padding: 8vh 10%;
+  background-color: #f9f9f9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.tc-lgpd-topico-topo ol,
+.tc-lgpd-topico-topo strong {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-bottom: 2vh;
+}
+
+.tc-topo {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/mulher-computador-vermelho.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0% 0%;
+  margin: 0% 10%;
+}
+
+.tc-topo h3 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1em;
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(25, 25, 25, 0) 70%
+  );
+  text-align: center;
+  margin: 6vw 0vw 0vw 0vw;
+  text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.7);
+  padding: 20vh 14vw 8vw 14vw;
+  color: #f4f4f4;
+}
+
+/*TR*/
+.tr-main {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 0%;
+}
+
+.tr-lgpd-topico-topo p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.tr-main h2 {
+  margin: 5vh 0vh 1vh 0vh;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.tr-lgpd-topico-topo {
+  margin: 0% 10%;
+  padding: 8vh 10%;
+  background-color: #f9f9f9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.tr-lgpd-topico-topo ol,
+.tr-lgpd-topico-topo strong {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-bottom: 2vh;
+}
+
+.tr-topo {
+  background-image: url("https://cdn.awsli.com.br/1800/1800519/arquivos/mulher-timida-branco.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0% 10%;
+  padding: 0% 0%;
+}
+
+.tr-topo h3 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1em;
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(25, 25, 25, 0) 70%
+  );
+  text-align: center;
+  margin: 6vw 0vw 0vw 0vw;
+  text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.7);
+  padding: 20vh 8vw 8vw 8vw;
+  color: #f4f4f4;
+}
+
+@media only screen and (max-width: 960px) {
+  .ppd-main {
+    padding: 0% 2%;
+  }
+  .ppd-lgpd {
+    margin: 10vw 10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ppd-main {
+    padding: 0% 2%;
+  }
+  .ppd-lgpd {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 14vw 4%;
+  }
+  .ppd-lgpd-l1 {
+    margin-left: 0vw;
+    text-align: center;
+  }
+  .ppd-lgpd-topico-corpo p {
+    margin-left: 0%;
+  }
+  .ppd-lgpd-topico-corpo h2 {
+    width: 100%;
+  }
+
+  .ppd-lgpd-topico-topo {
+    margin: 0% 0%;
+  }
+
+  .ppd-lgpd-topico-corpo {
+    margin: 5vw 2% 0vw 2%;
+  }
+}
