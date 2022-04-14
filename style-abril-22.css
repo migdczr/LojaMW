@@ -1,0 +1,451 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pagina-categoria .componente {
+  display: none;
+}
+
+.pagina-categoria .menu.lateral .nivel-um > li > a {
+  box-shadow: 0px 5px 21px 0px rgb(0 0 0 / 56%);
+}
+
+.pagina-categoria .filtro {
+  border: none;
+  box-shadow: 0px 5px 21px 0px rgb(0 0 0 / 56%);
+}
+
+.pagina-categoria .menu.lateral.outras ul {
+  border: none;
+  box-shadow: 0px 5px 21px 0px rgb(0 0 0 / 56%);
+}
+
+.pagina-categoria .menu.lateral.outras li {
+  border-bottom: 4px solid #191919;
+}
+
+.pagina-categoria .menu.lateral .nivel-um > li > a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.pagina-categoria .menu.lateral .nivel-um > li > a:hover {
+  filter: invert(1);
+}
+
+.pagina-categoria .listagem .listagem-item {
+  width: 86%;
+  padding: 14px;
+}
+
+.pagina-categoria .listagem .listagem-item .nome-produto {
+  font-size: 12px;
+}
+
+.pagina-categoria .listagem .listagem-item .desconto-a-vista {
+  font-size: 12px;
+}
+
+.pagina-categoria .listagem-comum {
+  box-shadow: 0px 5px 21px 0px rgb(0 0 0 / 56%);
+}
+
+.pagina-pagina .caixa-sombreada {
+  background: none;
+  box-shadow: 0px 5px 21px 0px rgb(205 205 205 / 0%);
+  border: none;
+}
+
+.pagina-pagina .breadcrumbs,
+.pagina-pagina .caixa-sombreada .titulo {
+  display: none;
+}
+
+.listagem .span3 .imagem-produto,
+.listagem .produtos-carrossel[data-produtos-linha="4"] .imagem-produto {
+  background-color: #fff;
+  box-shadow: 0px 2px 17px rgba(0, 0, 0, 0.09);
+  border-radius: 8px !important;
+}
+
+.preco-promocional,
+.nome-produto,
+.preco-venda,
+.preco-parcela,
+.desconto-a-vista,
+.cor-principal,
+.titulo-categoria,
+.descricao-short {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.abriga-menu {
+  box-shadow: none;
+}
+
+.abriga-conta {
+  border-right: none;
+}
+
+.abriga-conta .login-inside {
+  filter: invert(1);
+}
+
+.abriga-atendimento {
+  color: #000 !important;
+  /*filter: invert(0.8);*/
+  border-right: none;
+}
+
+.icon-novocart {
+  filter: invert(1);
+}
+
+.texto-cart-cheio .qtd-carrinho strong {
+  filter: invert(1);
+}
+
+.vazio-text {
+  filter: invert(1);
+}
+
+.carrinho b {
+  filter: invert(1);
+}
+
+.nova-tarja {
+  background-color: #191919 !important;
+  margin-top: -10px !important;
+  box-shadow: none;
+}
+
+.tarja img {
+  margin-top: -10px !important;
+  box-shadow: 0px 0px 0px 0px rgb(255 255 255 / 0%) !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+
+.tarja {
+  margin-top: -10px !important;
+  vertical-align: top;
+}
+
+.pagina-produto .produto .conteiner-imagem {
+  padding-top: 6vh;
+}
+
+.pagina-produto .descricao-short {
+  background: #f9f9f9;
+  padding: 16px;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  border-radius: 4px !important;
+}
+
+.pagina-produto .box-descricao {
+  background-color: #191919;
+  padding: 0px;
+  margin-top: -20px;
+}
+
+.produto .codigo-produto {
+  text-align: center;
+}
+
+.produto .desconto-a-vista {
+  -webkit-border-radius: 80px !important;
+  -moz-border-radius: 80px !important;
+  border-radius: 80px !important;
+  font-size: 14px !important;
+}
+
+.cor-principal {
+  font-size: 14px !important;
+}
+
+.flex-control-nav {
+  display: none !important;
+}
+
+#rodape .institucional {
+  color: #fff;
+  padding-bottom: 50px;
+  background-color: #252525;
+}
+
+#rodape .pagamento-selos {
+  padding-bottom: 30px;
+  background-color: #f9f9f9;
+}
+
+#barraNewsletter {
+  box-shadow: none !important;
+}
+
+.atendimento-rodape {
+  padding-left: 30px;
+  filter: invert(1);
+}
+
+.meio-rodape {
+  filter: invert(1);
+}
+
+.gateways-rodape {
+  text-align: left !important;
+  background: none !important;
+}
+
+.nome-produto {
+  font-weight: 500 !important;
+}
+
+.pagina-inicial #corpo {
+  margin-top: 0px !important;
+  padding-top: 20px !important;
+  background-color: #191919 !important;
+}
+
+.pagina-carrinho #corpo {
+  height: 100vh;
+  background-color: #191919;
+}
+
+.pagina-carrinho .caixa-sombreada {
+  box-shadow: 0px 8px 12px 0px rgb(0 0 0 / 80%);
+}
+
+.newsletter {
+  padding: 40px 0px 0px 0px !important;
+}
+
+#cabecalho {
+  background-color: #00ffde !important;
+}
+
+.aproveite-tambem .listagem-linha {
+  box-shadow: 0px 12px 16px 0px rgb(0 0 0 / 100%);
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  border-radius: 8px !important;
+}
+
+.listagem .produtos-carrossel .listagem-linha.flexslider {
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 100%);
+}
+
+.listagem .titulo-categoria {
+  box-shadow: none;
+  color: #fff;
+  background-color: #f9f9f9;
+}
+
+.listagem .produtos-carrossel .listagem-linha.flexslider {
+  box-shadow: none;
+}
+
+.icon-chat-flutuante {
+  fill: #191919;
+}
+
+.floating-container .floating-button {
+  box-shadow: 0px 12px 16px 0px rgb(0 0 0 / 30%);
+}
+
+.modal-header .titulo {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#modalContato .modal-body {
+  padding: 0px;
+}
+
+#modalContato .modal-body .row-fluid [class*="span"]:first-child {
+  display: none;
+}
+
+#modalContato .modal-header {
+  color: #191919;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#modalContato .modal-body .row-fluid .span6 {
+  width: 100%;
+}
+
+#modalContato .modal-body .row-fluid [class*="span"] {
+  margin-left: 0%;
+}
+
+#corpo {
+  background-color: #191919;
+  margin: 0px 0px !important;
+}
+
+.pagina-produto .box-produto {
+  box-shadow: 0px 12px 16px 0px rgb(0 0 0 / 100%);
+}
+
+@media only screen and (max-width: 768px) {
+  #corpo .conteiner > div {
+    margin: 0 0 0px;
+  }
+  .pagina-pagina .breadcrumbs {
+    display: none;
+  }
+
+  .pagina-pagina .caixa-sombreada {
+    padding: 0px;
+  }
+
+  .pagina-pagina .conteiner-principal .conteiner {
+    padding: 0px;
+  }
+
+  #cabecalho {
+    padding-top: 6px;
+  }
+
+  .pagina-carrinho #corpo {
+    background-color: #191919;
+    min-height: 130vh;
+    padding: 1rem;
+  }
+
+  .pagina-produto #corpo {
+    background-color: #fff;
+  }
+
+  .pagina-carrinho .caixa-sombreada {
+    margin-top: -20px;
+  }
+
+  .logo a {
+    height: 40px !important;
+  }
+
+  .atalhos-mobile li:first-child {
+    float: right !important;
+  }
+
+  .contato-mobile,
+  .carrinho-mobile,
+  .conta-mobile {
+    display: none;
+    margin-right: -18px;
+  }
+
+  .atalhos-mobile li {
+    transform: scale(0.7) !important;
+    filter: invert(0) !important;
+  }
+
+  .row-fluid #listagemProdutos {
+    margin: 0% 5% !important;
+    width: 90%;
+  }
+
+  .secao-banners {
+    background-color: #191919 !important;
+    padding: 0px !important;
+    border: none;
+    margin: 0px !important;
+  }
+
+  .conteiner li {
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  .conteiner .logo {
+    width: 180px !important;
+    float: left;
+    padding: 20px 0px 20px 30px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .lista-redes {
+    text-align: center !important;
+  }
+
+  .span9 {
+    text-align: center !important;
+  }
+
+  .span9 .titulo {
+    filter: invert(0.5);
+  }
+
+  .pagamento-selos {
+    text-align: center;
+  }
+
+  .pagina-produto .produto .conteiner-imagem {
+    padding-top: 0vh;
+    margin-top: -3vh;
+  }
+
+  .nome-produto {
+    margin-top: 20px;
+    padding: 0px 0px !important;
+    font-weight: 600 !important;
+  }
+
+  .produto {
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    border-radius: 8px !important;
+  }
+
+  .pagina-produto .box-descricao {
+    background-color: #fff;
+  }
+
+  .pagina-produto .box-descricao .abas-custom .tab-content {
+    box-shadow: none;
+  }
+
+  #barraNewsletter {
+    padding-bottom: 4vh;
+  }
+
+  .pagina-produto .aproveite-tambem .listagem-linha {
+    margin: 0% 5%;
+    background-color: #f9f9f9;
+    padding: 0px;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 8px 24px 0px rgb(0 0 0 / 10%);
+  }
+
+  .secao-banners .banner.cheio .flexslider .slides > li {
+    width: 100% !important;
+    right: 0%;
+    margin-right: -150% !important;
+  }
+
+  .busca #auto-complete {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  .conteudo-topo .busca-mobile .atalho-menu {
+    color: #191919;
+  }
+
+  .atalhos-mobile {
+    z-index: -1;
+    background-color: #00ffcc !important;
+    border-bottom: 2px solid #00ffde !important;
+  }
+
+  .menu.superior {
+    text-align: left;
+    background-color: #191919;
+  }
+}
